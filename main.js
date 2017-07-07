@@ -131,7 +131,7 @@ console.log("hello".length)
 // Then, write and example of using the function.
 
 function greaterThan(f, g){
-  if g > f{
+  if (g > f) {
     return true
   } else{
     return false
@@ -147,9 +147,9 @@ function greaterThan(f, g){
 // Then, write and example of using the function.
 
 function greet(name){
-  return ("hello"+" " + name);
+  return ("hello"+ " " + name);
 }
-
+var name = "brett"
 console.log(greet("brett"))
 
 // 9.
@@ -160,3 +160,9 @@ console.log(greet("brett"))
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+function madlib(plural_noun, adjective, noun, verb){
+  return "I have always loved " + plural_noun + "." + " " + "They have been my favorite since I was a child because they were the "
+  + adjective +" " + noun + "." + " " + "Gee, if i could just" + " " + verb +" " + "I would go see the " + plural_noun + " " + "right now!"
+}
+
+console.log(madlib("eggs", "funky", "orange", "jump"))
